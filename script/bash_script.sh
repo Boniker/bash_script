@@ -1,8 +1,6 @@
 #!/bin/bash
 #######################################
-# Homework: #1
 # Owner: Bilkevych Borys
-# Group: DevOps
 #######################################
 
 # Debugging system
@@ -70,7 +68,6 @@ function stdout_info () {
 }
 
 #######################################
-# BONUS:
 # Create a backup of the user's dir
 # And Add it to /backup dir by cron
 # Set a timestamp: every 00:00
@@ -150,4 +147,3 @@ function read_csv_file () {
 file_validation "$PARAM" "$FILE"
 create_backup_folder
 read_csv_file "$FILE"
-
